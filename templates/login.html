@@ -1,0 +1,60 @@
+<div class="contenido_login">
+    <h1>Iniciar sesión</h1>
+    <form action="inicio_secion" method="post" class="form_contenido_login">
+        <label for="nombre">Usuario:</label>
+        <input type="text" name="nombre" placeholder="Usuario">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" name="contrasena" placeholder="Contraseña">
+        <button type="submit">Iniciar sesión</button>
+    </form>
+</div>
+
+<style>
+    /* Estilos para el formulario */
+    .contenido_login {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    /* Estilos para los campos de texto */
+    .contenido_login input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+    /* Estilos para la etiqueta */
+    .contenido_login label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: black;
+    }
+
+    /* Estilos para el botón */
+    .contenido_login button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .contenido_login button[type="submit"]:hover {
+        background-color: #3e8e41;
+    }
+    .contenido_login button:hover, .contenido_login button:focus {
+        outline     : none;
+        background  : #3f18c9;
+        color       : #FFF;
+    }
+
+</style>

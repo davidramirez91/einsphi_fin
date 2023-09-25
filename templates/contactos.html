@@ -1,0 +1,99 @@
+<div class="CONTACTOS_btn" align="center">
+    <h2>WHATSAPP : </h2>
+    <a href= "what1">
+        <img src="static/img/SVG imagen/whatsapp-arg.svg" alt="What" class="imagen-icon">
+    </a> 
+    <p>+54 9 11 2753-4539</p>
+    <br>
+    <a href="what2">
+        <img src="static/img/SVG imagen/whatsapp-ecu.svg" alt="What" class="imagen-icon">
+    </a>
+    <p>+593 98 412 2940</p>
+    <br>
+    <a href="what3">
+        <img src="static/img/SVG imagen/whatsapp-ecu.svg" alt="What" class="imagen-icon">
+    </a>
+    <p>+593 99 899 8947</p>
+    <br><br>
+    <h2>TELEGRAM : </h2>
+    <a href="telegram">
+        <img src="static/img/SVG imagen/telegram.svg" alt="What" class="imagen-icon">
+    </a>
+    <p>+593 99 899 8947</p>
+    <br><br>
+    <h2>UBICACION : </h2>
+    <a href="direc_fm_1">
+        <img src="static/img/SVG imagen/maps.svg" alt="What" class="imagen-icon">
+        <P>ECUADOR - RIOBAMBA - Sector ESPOCH</P>
+    </a>
+    <a href="direc_fm_2">
+        <img src="static/img/SVG imagen/maps.svg" alt="What" class="imagen-icon">
+        <P>ECUADOR - RIOBAMBA - Sector 24 de Mayo</P>
+    </a>
+
+    <!-- Correo -->
+    <h2>DEJA TU COMENTARIO O MENSAJE: </h2>
+    <form action="enviar_email" method="POST">
+        <div class="input-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="input-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-mensaje">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+</div>
+
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!-- --------------------------------------- css style --------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------- -->
+
+<style>
+    .imagen-icon {
+        position: relative;
+        width: 17%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    /* Enviar mensaje a correo*/
+    .input-group {
+        max-width: 300px;
+    }
+    .input-mensaje {
+        margin-bottom: 15px;
+    }
+    .input-group label, .input-mensaje label{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+        .imagen-icon {
+            position: relative;
+            width: 70%;
+            height: auto;
+            cursor: pointer;
+        }
+    }
+
+</style>

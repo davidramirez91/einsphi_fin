@@ -1,0 +1,75 @@
+<section class="FM_seccion">
+    <div class="titulo">
+        <h1 align="center">CURSOS, TRABAJOS y PROYECTOS</h1>
+    </div>
+    <div class="contenido">
+        <p>✍ Física, Matemáticas, Química</p>
+        <p>✍ Métodos numéricos</p>
+        <p>✍ Análisis Matemático</p>
+        <p>✍ Cinemática directa e inversa</p>
+        <p>✍ Modelos dinámicos</p>
+        <p>✍ Teoría de control avanzado</p>
+        <p>✍ Automatización de Procesos</p>
+        <p>✍ Robótica teórica</p>
+        <p>✍ Programación Lineal</p>
+        <p>✍ Programación de autómatas</p>
+        <p>✍ Programación en código</p>
+        </div>
+    <div class="contenido">
+        <img src="static/img/Fisico/FM_ico/visual-s-code.png" alt="" width="55px">
+        <img src="static/img/Fisico/FM_ico/python.png" alt="" width="50px">
+        <img src="static/img/Fisico/FM_ico/logo c.png" alt="" width="65px">
+        <img src="static/img/Fisico/FM_ico/html_2.png" alt="" width="40px">        
+        <img src="static/img/Fisico/FM_ico/labview_2.png" alt="" width="50px">
+        <img src="static/img/Fisico/FM_ico/Matlab.png" alt="" width="55px">
+        <img src="static/img/Fisico/FM_ico/Scilab_Logo.png" alt="" width="65px">
+        <img src="static/img/Fisico/FM_ico/PSEINT.png" alt="" width="45px">
+        <img src="static/img/Fisico/FM_ico/solid.png" alt="" width="45px">
+        <img src="static/img/Fisico/FM_ico/AutoCAD.png" alt="" width="65px">
+    </div>
+    <div class="contenido">
+        <img src="static/img/Fisico/FM_ico/arduino-logo.png" alt="" width="70px">
+        <img src="static/img/Fisico/FM_ico/ABB.png" alt="" width="90px">
+        <img src="static/img/Fisico/FM_ico/Siemens-Logo.png" alt="" width="100px">
+        <img src="static/img/Fisico/FM_ico/Schneider-Electric-Logo.png" alt="" width="100px">
+        <img src="static/img/Fisico/FM_ico/siemenes.png" alt="" width="160px">
+    </div>
+    <div class="contenido">
+        <h2>HORARIOS</h2>
+        <p>- Lunes --> 10:00h a 19:00h</p>
+        <p>- Martes a Viernes --> 9:00h a 19:00h</p>
+        <p>- Sábado --> 8:30h a 14:00h</p>
+        <p>- Dias fuera de horarios planear <strong>reserva</strong></p>
+    </div>
+    <div class="contenido">
+        <h2>PRECIOS</h2>
+        <p>- Básico:  5usd la hora</p>
+        <p>- Bachiller:   5usd la hora</p>
+        <p>- Universidad (Basico):   5usd la hora</p>
+        <p>- Universidad (Avanzado):   6usd la hora</p>
+        <p>- Universidad (PLC - Automatizacion - Programación):   7usd la hora</p>
+    </div>
+
+    <div class="contenido" id="id_contenido_planes"></div>
+    <script type="text/javascript">
+        imprimir_plan = document.getElementById('id_contenido_planes');
+        imprimir_plan.innerHTML = `
+            <h2>PLANES</h2>
+            <p>- Plan 10h:   ${dplan["10b"]}usd (Nivel Básico) - ${dplan["10h"]}usd (Nivel Avanzado) -- [Un solo abono]</p>
+            <p>- Plan 20h:   ${dplan["20b"]}usd (Nivel Básico) - ${dplan["20h"]}usd (Nivel Avanzado)</p>
+            <p>- Plan 30h:   ${dplan["30b"]}usd (Nivel Básico) - ${dplan["30h"]}usd (Nivel Avanzado)</p><br>
+            <p>- Plan Mensual:   ${dplan["12b"]}usd (Nivel Básico) - ${dplan["12h"]}usd/h (Nivel Avanzado) [1 hora por dia - 3 días a la semana] -- [Un solo abono]</p>
+        `
+    </script>
+
+    <h2>Formularios para exámenes</h2>
+    
+    <div class="class_machetes" id="id_machetes">
+        <a href="formulario"> ☞ FORMULARIOS</a>
+    </div>
+
+</section>
+
+<!-- ----------------------------------------------------------------------------------------- -->
+<!-- ------------------------------------- css style ----------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------- -->
